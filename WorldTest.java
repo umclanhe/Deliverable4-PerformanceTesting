@@ -15,7 +15,7 @@ public class WorldTest {
 	     World w = new World(0,1,10);
 	     String st = "  "+"\n";	     
 	     String result = w.toString();
-		 assertEquals(result,st);
+	     assertEquals(result,st);
 	}
 	
 	// Test the method toString when there is only one cell 
@@ -30,7 +30,7 @@ public class WorldTest {
 		 Random rng = new Random(20);		 
 		 World wd = new World(cells,rng);
 		 String str = "  "+"0"+"\n"+"0"+" "+'.'+"\n";	     
-	     String result = wd.toString();
+	         String result = wd.toString();
 		 assertEquals(result,str);
 	}	
 
@@ -46,7 +46,7 @@ public class WorldTest {
 		 Random rng = new Random(10);		 
 		 World wd = new World(cells,rng);
 		 String str = "  "+"0"+"\n"+"0"+" "+'X'+"\n";	     
-	     String result = wd.toString();
+	         String result = wd.toString();
 		 assertEquals(result,str);
 	}	
 	
@@ -67,7 +67,7 @@ public class WorldTest {
 		 Random rng = new Random(5);		 
 		 World wd = new World(cells,rng);
 		 String str = "  "+"0"+"1"+"\n"+"0"+" "+'X'+'X'+"\n"+"1"+" "+'X'+'X'+"\n";	     
-	     String result = wd.toString();
+	         String result = wd.toString();
 		 assertEquals(result,str);
 	}
 	
@@ -90,7 +90,7 @@ public class WorldTest {
 		 Random rng = new Random(43);		 
 		 World wd = new World(cells,rng);
 		 String str = "  "+"0"+"1"+"\n"+"0"+" "+'X'+'.'+"\n"+"1"+" "+'X'+'.'+"\n";	     
-	     String result = wd.toString();
+	         String result = wd.toString();
 		 assertEquals(result,str);
 	}
 	
